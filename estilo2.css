@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px 0;
+    background-color: #22785B;
+    color: #ecf0f1;
+    font-family: 'Rubik Marker Hatch', cursive;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 19px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+header nav li a:hover {
+    color: #434242;
+}
+
+header h1 {
+    font-size: 40px;
+}
+h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 1720px;
+    width: 100%;
+    margin: 0 20px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.platforms-list img {
+    height: 30px;
+}
+
+.platforms-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: white;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.talking-about,
+.talking-about2,
+.talking-about {
+    margin-right: 32px;
+    height: 500px;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: #68B984;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #379237;
+}
+
+input:focus, textarea:focus {
+    outline-color: #182c61;
+}
+
+.social-links img {
+    height: 30px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.contact-methods {
+    display: block;
+}
+
+.follow {
+    margin-left: 18px;
+}
+
+.platforms-games {
+    margin-top: 100px;
+}
+
+#god,
+#god h2 {
+    background-color: #1D2829;
+    color: #478AB8;
+}
+
+#katana,
+#katana h2 {
+    background-color: #AC00BB;
+    color: #FBA41B;
+}
+
+#sub,
+#sub h2 {
+    background-color: #2E2C48;
+    color: #E0D4E7;
+}
+
+#sub2,
+#sub2 h2 {
+    background-color: #2B567B;
+    color: #AEC5D9;
+}
+
+#stardew,
+#stardew h2 {
+    background-color: #22785B;
+    color: #C79406;
+}
+
+#contact {
+    background-color: #22785B;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Mako', sans-serif;
+}
